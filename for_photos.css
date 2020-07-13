@@ -1,0 +1,112 @@
+body {
+    margin:0;
+}
+
+a {
+    text-decoration:none;
+    color: white;
+}
+
+.informbar {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:rgb(28, 104, 104);
+    padding: 8px 24px;
+}
+
+.informbar_name {
+    font-size:20px;
+}
+
+.informbar_name a{
+    padding: 8px 12px;
+}
+
+.informbar_menu {
+    display:flex;
+    list-style:none;
+    padding-left:0;
+}
+
+.informbar_menu li{
+    padding: 8px 12px;
+}
+
+.informbar_menu li:hover {
+    background-color:rgb(173, 173, 52);
+    border-radius: 7px;
+
+}
+
+.informbar_link {
+    list-style:none;
+}
+
+.informbar_link li {
+    padding: 8px 12px;
+}
+
+.informbar_link li:hover {
+    background-color:rgb(173, 173, 52);
+    border-radius: 7px;
+}
+
+.text_bar {
+    background-color:grey;
+    height:590px;
+    display:flex;
+    text-align:center;
+    color:white;
+}
+
+.text_bar li {
+    list-style: none;
+}
+
+.text_bar li > p{
+    background-color:rgb(28, 104, 104);
+    font-size: 25px;
+}
+
+.text_bar .pic_1 {
+    background-image:url(images/leaf3.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    width: 300px;
+    height:450px;
+    margin: 62px 110px;
+    border: 7px solid rgb(28, 104, 104);
+}
+
+.text_bar .pic_2 {
+    background-image:url(images/stair.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    width: 300px;
+    height: 450px;
+    margin: 62px 110px;
+    border: 7px solid rgb(28, 104, 104);
+}
+
+.text_bar .pic_3 {
+    background-image:url(images/chair.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    width: 300px;
+    height: 450px;
+    margin: 62px 110px;
+    border: 7px solid rgb(28, 104, 104);
+}
+
+
+.simple_inform {
+    background-color:rgb(28, 104, 104);
+    padding:12px;
+}
+
+.simple_inform p {
+    margin: 0;
+    text-align:center;
+    color:white;
+}
